@@ -1,4 +1,9 @@
 
+# Projet : Inscription et bulletin étudiant
+# Description : Ce programme enregistre les informations des étudiants
+# dans un fichier CSV (etudiants.csv) et calcule leur moyenne pour
+# générer un bulletin avec décision de passage.
+
 # 1. Classe Etudiant
 class Etudiant:
     def __init__(self, nom, prenom, sexe, date_naissance, lieu_naissance):
